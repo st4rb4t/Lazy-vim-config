@@ -15,6 +15,7 @@ return {
         "bash",
         "vim",
         "vimdoc",
+        "org",
       },
       sync_install = false,
       auto_install = true,

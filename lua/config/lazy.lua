@@ -32,3 +32,6 @@ require("lazy").setup({
     },
   },
 })
+
+-- Set Number system 
+-- set number
