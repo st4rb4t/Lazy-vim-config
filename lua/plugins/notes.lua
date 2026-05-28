@@ -18,7 +18,7 @@ return {
       require("obsidian").setup({
         workspaces = {
           { name = "main", path = "~/vault" },
-          { name = "apprenticeship", path = "/mnt/nfs_main/Disk_B_Part1/QA/Obsidian/QA/" },
+          { name = "apprenticeship", path = "~/vault/apprenticeship/" },
           { name = "personal", path = "~/vault/personal" },
           { name = "wiki", path = "~/vault/wiki" },
           { name = "learning", path = "~/vault/wiki/Learning"},
@@ -32,7 +32,6 @@ return {
             detach = true,
           })
         end,
-
 
 
         note_id_func = function(title)
